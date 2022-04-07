@@ -57,5 +57,5 @@ resource "aws_instance" "test-ins" {
   ami = var.ami
   instance_type = var.instance_type
   key_name = var.key_name
-  subnet_id = "subnet-0541df87b61637aa2"
+  subnet_id = "subnet-057a5087c0fe8c3c3"
 }
