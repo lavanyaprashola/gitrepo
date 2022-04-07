@@ -1,6 +1,6 @@
 region = "us-west-1"
 
-ami = "ami-ami-04a50faf2a2ec1901"
+ami = "ami-04a50faf2a2ec1901"
 
 key_name = "lavanya"
 
