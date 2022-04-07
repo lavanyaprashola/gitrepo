@@ -2,6 +2,6 @@ region = "us-west-2"
 
 ami = "ami-0eb324d928acca58a"
 
-key_name = "shobi"
+key_name = "keypair"
 
 instance_type = "t2.micro"
