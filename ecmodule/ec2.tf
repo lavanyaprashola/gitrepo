@@ -21,7 +21,7 @@ provider "aws" {
 resource "aws_security_group" "test-sg" {
   name        = "test-sgp"
   description = "Security group"
-  vpc_id      = "vpc-089e15dbe12a282cf"
+  vpc_id      = "vpc-04933bdbf1ce0ab9a"
 
   ingress {
     description      = "TLS from VPC"
