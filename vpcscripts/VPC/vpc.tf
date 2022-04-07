@@ -1,5 +1,5 @@
 provider "aws" {
-  region = "us-west-2"
+  region = "us-west-1"
 }
 
 resource "aws_vpc" "test-vpc" {
@@ -13,13 +13,13 @@ resource "aws_internet_gateway" "test-igw" {
 resource "aws_subnet" "test-pub-sub" {
   vpc_id = aws_vpc.test-vpc.id
   cidr_block = var.Pub_cidr
-  availability_zone = "us-west-2a"
+  availability_zone = "us-west-1a"
 }
 
 resource "aws_subnet" "test-priv-sub" {
   vpc_id = aws_vpc.test-vpc.id
   cidr_block = var.Pri_cidr
-  availability_zone = "us-west-2a"
+  availability_zone = "us-west-1b"
 }
 
 resource "aws_route_table" "test-pub-rtbl" {
