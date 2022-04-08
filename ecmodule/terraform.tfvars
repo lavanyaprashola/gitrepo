@@ -1,7 +1,7 @@
-region = "us-west-1"
+region = "us-west-2"
 
-ami = "04a50faf2a2ec1901"
+ami = "ami-00ee4df451840fa9d"
 
-key_name = "icecream"
+key_name = "keypair"
 
 instance_type = "t2.micro"
