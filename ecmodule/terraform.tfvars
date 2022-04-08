@@ -1,6 +1,6 @@
 region = "us-west-1"
 
-ami = "052f64d0cd359fe1f"
+ami = "04be797e37992bf1e"
 
 key_name = "icecream"
 
