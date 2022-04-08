@@ -21,7 +21,7 @@ provider "aws" {
 resource "aws_security_group" "test-sg" {
   name        = "test-sgp"
   description = "Security group"
-  vpc_id      = "vpc-04933bdbf1ce0ab9a"
+  vpc_id      = "vpc-06a1a6cd545cf7522"
 
   ingress {
     description      = "TLS from VPC"
@@ -57,5 +57,5 @@ resource "aws_instance" "test-ins" {
   ami = var.ami
   instance_type = var.instance_type
   key_name = var.key_name
-  subnet_id = "subnet-057a5087c0fe8c3c3"
+  subnet_id = "subnet-026bc4bc1240bdad6"
 }
